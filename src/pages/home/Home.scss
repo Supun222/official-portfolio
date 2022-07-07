@@ -1,0 +1,71 @@
+.profile_picture{
+    width: 400px;
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    .logo {
+        width: 200px;
+    }
+
+    .aboutwrapper{
+        flex-direction: column !important;
+    }
+
+    .profile_picture{
+        width: 100px;
+    }
+
+    .profile_picture{
+        width: 250px;
+    }
+
+    .aboutContent{
+        max-width: 20.3rem;
+    }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+    .logo {
+        width: 200px;
+    }
+
+    .profile_picture{
+        width: 300px;
+    }
+
+    .aboutwrapper{
+        flex-direction: row !important;
+    }
+
+    .aboutContent{
+        max-width: 20rem;
+    }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+    .logo {
+        width: 225px;
+    }
+
+    .aboutContent{
+        max-width: 30rem;
+    }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+    .logo {
+        width: 300px;
+    }
+
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    .logo {
+        width: 400px;
+    }
+}
